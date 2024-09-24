@@ -42,6 +42,7 @@ public class CosmosCrudAppConfiguration extends AbstractCosmosConfiguration {
 		return new CosmosClientBuilder().endpoint(extConstant.getUri()).key(extConstant.getKey())
 				.directMode(directConnectionConfig);
 	}
+
 	@Override
 	protected String getDatabaseName() {
 		//3.-AQUI VA LA BASE DE DATOS COMO LA TENEMOS LLAMADA EN COSMOS emulator

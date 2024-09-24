@@ -22,7 +22,6 @@ public class User {
     @NonNull
     private String firstName;
 
-
     //cuando creas un container ,
     // en el emulador te pide un partition key, entonces en este caso establecemos el lastname, pero podria ser el que tu quieras
     //recuerda en el emulador debe de ser  con la "/" por ejemplo /lastname
